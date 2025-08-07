@@ -1,0 +1,6 @@
+name = input('Entre com o seu nome: ')
+print('Nome Maiusculo: ', name.upper())
+print('Nome Minusculo: ', name.lower())
+print('Possuem ', len(name), ' caracteres.')
+newname = name.replace('Campello','do Inatel')
+print('Nome é:', newname)
